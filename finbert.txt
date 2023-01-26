@@ -1,0 +1,658 @@
+(base) PS C:\Users\mebasaran> dir
+
+
+    Répertoire : C:\Users\mebasaran
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21/06/2022     00:48                .android
+d-----        21/06/2022     00:08                .arduinoIDE
+d-----        31/12/2022     13:42                .conda
+d-----        01/05/2021     13:52                .config
+d-----        31/12/2022     13:39                .continuum
+d-----        21/06/2022     00:54                .cookiecutters
+d-----        21/06/2022     00:55                .cookiecutter_replay
+d-----        21/06/2022     00:05                .dotnet
+d-----        01/01/2022     17:32                .idlerc
+d-----        01/05/2021     13:51                .librarymanager
+d-----        01/05/2021     13:08                .nuget
+d-----        21/06/2022     00:26                .templateengine
+d-r---        30/04/2021     16:03                3D Objects
+d-r---        30/04/2021     16:03                Contacts
+d-r---        23/12/2022     01:04                Desktop
+d-r---        26/12/2022     08:50                Documents
+d-r---        31/12/2022     13:44                Downloads
+d-r---        30/04/2021     16:03                Favorites
+d-r---        30/04/2021     16:03                Links
+d-r---        30/04/2021     16:03                Music
+dar--l        22/06/2021     21:49                OneDrive
+d-r---        20/06/2022     23:27                Pictures
+d-r---        30/04/2021     16:03                Saved Games
+d-r---        30/04/2021     16:03                Searches
+d-----        01/05/2021     13:36                Source
+d-r---        30/04/2021     18:19                Videos
+-a----        31/12/2022     13:40             25 .condarc
+-a----        23/12/2022     15:31            233 .gitconfig
+
+
+(base) PS C:\Users\mebasaran> cd ..
+(base) PS C:\Users> cd..
+(base) PS C:\> cd .\Finbert\
+(base) PS C:\Finbert> cd .\finBERT\
+(base) PS C:\Finbert\finBERT> dir
+
+
+    Répertoire : C:\Finbert\finBERT
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        31/12/2022     13:46                finbert
+d-----        31/12/2022     13:46                notebooks
+d-----        31/12/2022     13:46                scripts
+-a----        31/12/2022     13:46             44 .dockerignore
+-a----        31/12/2022     13:46             83 .gitattributes
+-a----        31/12/2022     13:46            335 .gitignore
+-a----        31/12/2022     13:46            312 config.json
+-a----        31/12/2022     13:46            387 CONTRIBUTING
+-a----        31/12/2022     13:46            240 Dockerfile
+-a----        31/12/2022     13:46            333 environment.yml
+-a----        31/12/2022     13:46            778 examples.csv
+-a----        31/12/2022     13:46          11357 LICENSE
+-a----        31/12/2022     13:46            720 main.py
+-a----        31/12/2022     13:46           5416 README.md
+-a----        31/12/2022     13:46            942 test.txt
+
+
+(base) PS C:\Finbert\finBERT> conda env create -f environment.yml
+Warning: you have pip-installed dependencies in your environment file, but you do not list pip itself as one of your conda dependencies.  Conda may not use the correct pip to install your packages, and they may end up in the wrong place.  Please add an explicit pip dependency.  I'm adding one for you, but still nagging you.
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 22.9.0
+  latest version: 22.11.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+Downloading and Extracting Packages
+ipykernel-5.1.3      | 168 KB    | ############################################################################################### | 100%
+pygments-2.11.2      | 793 KB    | ############################################################################################### | 100%
+wincertstore-0.2     | 15 KB     | ############################################################################################### | 100%
+brotlipy-0.7.0       | 372 KB    | ############################################################################################### | 100%
+packaging-21.3       | 35 KB     | ############################################################################################### | 100%
+argon2-cffi-21.3.0   | 15 KB     | ############################################################################################### | 100%
+colorama-0.4.4       | 21 KB     | ############################################################################################### | 100%
+importlib-metadata-4 | 40 KB     | ############################################################################################### | 100%
+tokenizers-0.9.4     | 1.8 MB    | ############################################################################################### | 100%
+nest-asyncio-1.5.5   | 15 KB     | ############################################################################################### | 100%
+regex-2022.3.15      | 364 KB    | ############################################################################################### | 100%
+icc_rt-2019.0.0      | 9.4 MB    | ############################################################################################### | 100%
+icu-58.2             | 21.9 MB   | ############################################################################################### | 100%
+requests-2.27.1      | 52 KB     | ############################################################################################### | 100%
+backcall-0.2.0       | 13 KB     | ############################################################################################### | 100%
+numpy-base-1.16.3    | 4.1 MB    | ############################################################################################### | 100%
+urllib3-1.26.9       | 184 KB    | ############################################################################################### | 100%
+terminado-0.13.1     | 31 KB     | ############################################################################################### | 100%
+jupyter-1.0.0        | 6 KB      | ############################################################################################### | 100%
+nbclient-0.5.13      | 115 KB    | ############################################################################################### | 100%
+prometheus_client-0. | 47 KB     | ############################################################################################### | 100%
+certifi-2022.6.15    | 157 KB    | ############################################################################################### | 100%
+webencodings-0.5.1   | 19 KB     | ############################################################################################### | 100%
+jedi-0.18.1          | 1005 KB   | ############################################################################################### | 100%
+jupyter_client-7.2.2 | 231 KB    | ############################################################################################### | 100%
+attrs-21.4.0         | 49 KB     | ############################################################################################### | 100%
+pyparsing-3.0.4      | 78 KB     | ############################################################################################### | 100%
+sacremoses-0.0.43    | 442 KB    | ############################################################################################### | 100%
+libpng-1.6.37        | 598 KB    | ############################################################################################### | 100%
+entrypoints-0.4      | 17 KB     | ############################################################################################### | 100%
+argon2-cffi-bindings | 38 KB     | ############################################################################################### | 100%
+sip-6.5.1            | 433 KB    | ############################################################################################### | 100%
+winpty-0.4.3         | 1.1 MB    | ############################################################################################### | 100%
+jupyter_console-6.4. | 23 KB     | ############################################################################################### | 100%
+joblib-1.1.0         | 211 KB    | ############################################################################################### | 100%
+jupyter_core-4.10.0  | 109 KB    | ############################################################################################### | 100%
+beautifulsoup4-4.11. | 188 KB    | ############################################################################################### | 100%
+send2trash-1.8.0     | 19 KB     | ############################################################################################### | 100%
+jpeg-9b              | 313 KB    | ############################################################################################### | 100%
+pywin32-302          | 9.3 MB    | ############################################################################################### | 100%
+python_abi-3.7       | 4 KB      | ############################################################################################### | 100%
+python-dateutil-2.8. | 241 KB    | ############################################################################################### | 100%
+pyzmq-22.3.0         | 714 KB    | ############################################################################################### | 100%
+blas-1.0             | 6 KB      | ############################################################################################### | 100%
+transformers-4.1.1   | 785 KB    | ############################################################################################### | 100%
+importlib_resources- | 21 KB     | ############################################################################################### | 100%
+cffi-1.15.0          | 226 KB    | ############################################################################################### | 100%
+ipywidgets-7.6.5     | 109 KB    | ############################################################################################### | 100%
+jsonschema-4.4.0     | 138 KB    | ############################################################################################### | 100%
+nbconvert-6.4.4      | 569 KB    | ############################################################################################### | 100%
+pyqt-5.9.2           | 4.6 MB    | ############################################################################################### | 100%
+vs2015_runtime-14.27 | 2.2 MB    | ############################################################################################### | 100%
+pysocks-1.7.1        | 27 KB     | ############################################################################################### | 100%
+qtpy-2.0.1           | 40 KB     | ############################################################################################### | 100%
+dataclasses-0.8      | 7 KB      | ############################################################################################### | 100%
+pickleshare-0.7.5    | 13 KB     | ############################################################################################### | 100%
+toml-0.10.2          | 20 KB     | ############################################################################################### | 100%
+pytz-2022.1          | 254 KB    | ############################################################################################### | 100%
+win_inet_pton-1.1.0  | 33 KB     | ############################################################################################### | 100%
+typing_extensions-4. | 29 KB     | ############################################################################################### | 100%
+prompt_toolkit-3.0.2 | 12 KB     | ############################################################################################### | 100%
+defusedxml-0.7.1     | 24 KB     | ############################################################################################### | 100%
+numpy-1.16.3         | 49 KB     | ############################################################################################### | 100%
+soupsieve-2.3.1      | 33 KB     | ############################################################################################### | 100%
+ipython-7.31.1       | 1.2 MB    | ############################################################################################### | 100%
+widgetsnbextension-3 | 1.3 MB    | ############################################################################################### | 100%
+idna-3.3             | 55 KB     | ############################################################################################### | 100%
+decorator-5.1.1      | 12 KB     | ############################################################################################### | 100%
+qt-5.9.7             | 92.3 MB   | ############################################################################################### | 100%
+tqdm-4.64.0          | 154 KB    | ############################################################################################### | 100%
+wheel-0.37.1         | 31 KB     | ############################################################################################### | 100%
+jupyterlab_pygments- | 8 KB      | ############################################################################################### | 100%
+python-fastjsonschem | 27 KB     | ############################################################################################### | 100%
+vc-14.2              | 8 KB      | ############################################################################################### | 100%
+jupyterlab_widgets-1 | 134 KB    | ############################################################################################### | 100%
+pandas-0.23.4        | 8.6 MB    | ############################################################################################### | 100%
+openssl-1.1.1o       | 5.8 MB    | ############################################################################################### | 100%
+mkl-2019.4           | 157.5 MB  | ############################################################################################### | 100%
+pyrsistent-0.18.0    | 90 KB     | ############################################################################################### | 100%
+ca-certificates-2022 | 163 KB    | ############################################################################################### | 100%
+zlib-1.2.11          | 117 KB    | ############################################################################################### | 100%
+testpath-0.6.0       | 92 KB     | ############################################################################################### | 100%
+typing-extensions-4. | 8 KB      | ############################################################################################### | 100%
+mistune-0.8.4        | 54 KB     | ############################################################################################### | 100%
+pandocfilters-1.5.0  | 11 KB     | ############################################################################################### | 100%
+sqlite-3.38.5        | 1.2 MB    | ############################################################################################### | 100%
+pywinpty-2.0.2       | 229 KB    | ############################################################################################### | 100%
+mkl-service-2.3.0    | 51 KB     | ############################################################################################### | 100%
+cryptography-37.0.1  | 1.1 MB    | ############################################################################################### | 100%
+mkl_fft-1.2.0        | 135 KB    | ############################################################################################### | 100%
+tornado-6.1          | 645 KB    | ############################################################################################### | 100%
+nbformat-5.3.0       | 163 KB    | ############################################################################################### | 100%
+six-1.16.0           | 19 KB     | ############################################################################################### | 100%
+mkl_random-1.1.0     | 270 KB    | ############################################################################################### | 100%
+pip-21.2.4           | 2.1 MB    | ############################################################################################### | 100%
+notebook-6.4.11      | 8.0 MB    | ############################################################################################### | 100%
+pyopenssl-22.0.0     | 49 KB     | ############################################################################################### | 100%
+intel-openmp-2022.0. | 3.5 MB    | ############################################################################################### | 100%
+jinja2-3.0.3         | 99 KB     | ############################################################################################### | 100%
+setuptools-61.2.0    | 1.3 MB    | ############################################################################################### | 100%
+click-8.0.4          | 149 KB    | ############################################################################################### | 100%
+wcwidth-0.2.5        | 34 KB     | ############################################################################################### | 100%
+prompt-toolkit-3.0.2 | 254 KB    | ############################################################################################### | 100%
+qtconsole-5.3.0      | 90 KB     | ############################################################################################### | 100%
+matplotlib-inline-0. | 12 KB     | ############################################################################################### | 100%
+bleach-4.1.0         | 121 KB    | ############################################################################################### | 100%
+python-3.7.3         | 17.8 MB   | ############################################################################################### | 100%
+parso-0.8.3          | 69 KB     | ############################################################################################### | 100%
+filelock-3.6.0       | 12 KB     | ############################################################################################### | 100%
+ipython_genutils-0.2 | 27 KB     | ############################################################################################### | 100%
+importlib_metadata-4 | 12 KB     | ############################################################################################### | 100%
+traitlets-5.1.1      | 82 KB     | ############################################################################################### | 100%
+markupsafe-2.1.1     | 28 KB     | ############################################################################################### | 100%
+pycparser-2.21       | 94 KB     | ############################################################################################### | 100%
+charset-normalizer-2 | 33 KB     | ############################################################################################### | 100%
+nltk-3.7             | 1.1 MB    | ############################################################################################### | 100%
+zipp-3.8.0           | 20 KB     | ############################################################################################### | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+Installing pip dependencies: \ Ran pip subprocess with arguments:
+['C:\\Users\\mebasaran\\.conda\\envs\\finbert\\python.exe', '-m', 'pip', 'install', '-U', '-r', 'C:\\Finbert\\finBERT\\condaenv.to6bzukt.requirements.txt']
+Pip subprocess output:
+Collecting joblib==0.13.2
+  Downloading joblib-0.13.2-py2.py3-none-any.whl (278 kB)
+Collecting scikit-learn==0.21.2
+  Downloading scikit_learn-0.21.2-cp37-cp37m-win_amd64.whl (5.9 MB)
+Collecting spacy==2.1.4
+  Downloading spacy-2.1.4-cp37-cp37m-win_amd64.whl (29.0 MB)
+
+Pip subprocess error:
+ERROR: Could not find a version that satisfies the requirement torch==1.1.0 (from versions: 1.7.0, 1.7.1, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.10.1, 1.10.2, 1.11.0, 1.12.0, 1.12.1, 1.13.0, 1.13.1)
+ERROR: No matching distribution found for torch==1.1.0
+
+failed
+
+CondaEnvException: Pip failed
+
+(base) PS C:\Finbert\finBERT> conda activate finbert
+(finbert) PS C:\Finbert\finBERT> cd ..
+(finbert) PS C:\Finbert> cd..
+(finbert) PS C:\> cd users
+(finbert) PS C:\users> cd .\mebasaran\
+(finbert) PS C:\users\mebasaran> dir
+
+
+    Répertoire : C:\users\mebasaran
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21/06/2022     00:48                .android
+d-----        21/06/2022     00:08                .arduinoIDE
+d-----        31/12/2022     13:42                .conda
+d-----        01/05/2021     13:52                .config
+d-----        31/12/2022     13:39                .continuum
+d-----        21/06/2022     00:54                .cookiecutters
+d-----        21/06/2022     00:55                .cookiecutter_replay
+d-----        21/06/2022     00:05                .dotnet
+d-----        01/01/2022     17:32                .idlerc
+d-----        31/12/2022     14:05                .ipynb_checkpoints
+d-----        31/12/2022     14:05                .ipython
+d-----        01/05/2021     13:51                .librarymanager
+d-----        01/05/2021     13:08                .nuget
+d-----        21/06/2022     00:26                .templateengine
+d-r---        30/04/2021     16:03                3D Objects
+d-r---        30/04/2021     16:03                Contacts
+d-r---        23/12/2022     01:04                Desktop
+d-r---        26/12/2022     08:50                Documents
+d-r---        31/12/2022     14:35                Downloads
+d-r---        30/04/2021     16:03                Favorites
+d-r---        30/04/2021     16:03                Links
+d-r---        30/04/2021     16:03                Music
+dar--l        22/06/2021     21:49                OneDrive
+d-r---        20/06/2022     23:27                Pictures
+d-r---        30/04/2021     16:03                Saved Games
+d-r---        30/04/2021     16:03                Searches
+d-----        01/05/2021     13:36                Source
+d-r---        30/04/2021     18:19                Videos
+-a----        31/12/2022     13:40             25 .condarc
+-a----        23/12/2022     15:31            233 .gitconfig
+-a----        31/12/2022     14:07            576 Untitled.ipynb
+
+
+(finbert) PS C:\users\mebasaran> cd .\Source\
+(finbert) PS C:\users\mebasaran\Source> cd .\Repos\
+(finbert) PS C:\users\mebasaran\Source\Repos> cd .\FinBert1\
+(finbert) PS C:\users\mebasaran\Source\Repos\FinBert1> dir
+
+
+    Répertoire : C:\users\mebasaran\Source\Repos\FinBert1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        31/12/2022     14:35      440477289 pytorch_model.bin
+
+
+(finbert) PS C:\users\mebasaran\Source\Repos\FinBert1> cd..
+(finbert) PS C:\users\mebasaran\Source\Repos> cd..
+(finbert) PS C:\users\mebasaran\Source> cd..
+(finbert) PS C:\users\mebasaran> cd..
+(finbert) PS C:\users> cd..
+(finbert) PS C:\> cd .\Finbert\
+(finbert) PS C:\Finbert> cd .\finBERT\
+(finbert) PS C:\Finbert\finBERT> duir
+duir : Le terme «duir» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez
+l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
+Au caractère Ligne:1 : 1
++ duir
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (duir:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(finbert) PS C:\Finbert\finBERT> dir
+
+
+    Répertoire : C:\Finbert\finBERT
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        31/12/2022     13:46                finbert
+d-----        31/12/2022     14:46                models
+d-----        31/12/2022     13:46                notebooks
+d-----        31/12/2022     13:46                scripts
+-a----        31/12/2022     13:46             44 .dockerignore
+-a----        31/12/2022     13:46             83 .gitattributes
+-a----        31/12/2022     13:46            335 .gitignore
+-a----        31/12/2022     13:46            312 config.json
+-a----        31/12/2022     13:46            387 CONTRIBUTING
+-a----        31/12/2022     13:46            240 Dockerfile
+-a----        31/12/2022     13:46            333 environment.yml
+-a----        31/12/2022     13:46            778 examples.csv
+-a----        31/12/2022     13:46          11357 LICENSE
+-a----        31/12/2022     13:46            720 main.py
+-a----        31/12/2022     13:46           5416 README.md
+-a----        31/12/2022     13:46            942 test.txt
+-a----        31/12/2022     14:03         243462 TURKEY_1YEAR.csv
+
+
+(finbert) PS C:\Finbert\finBERT> cd .\scripts\
+(finbert) PS C:\Finbert\finBERT\scripts> dir
+
+
+    Répertoire : C:\Finbert\finBERT\scripts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        31/12/2022     13:46            733 datasets.py
+-a----        31/12/2022     13:46            860 predict.py
+
+
+(finbert) PS C:\Finbert\finBERT\scripts> python predict.py --text_path test.txt --output_dir output/ --model_path models/classifier_model/finbert-sentiment
+Traceback (most recent call last):
+  File "predict.py", line 1, in <module>
+    from finbert.finbert import predict
+ModuleNotFoundError: No module named 'finbert'
+(finbert) PS C:\Finbert\finBERT\scripts> cd..
+(finbert) PS C:\Finbert\finBERT> python predict.py --text_path test.txt --output_dir output/ --model_path models/classifier_model/finbert-sentiment
+C:\Users\mebasaran\.conda\envs\finbert\python.exe: can't open file 'predict.py': [Errno 2] No such file or directory
+(finbert) PS C:\Finbert\finBERT> cd .\scripts\
+(finbert) PS C:\Finbert\finBERT\scripts> dir
+
+
+    Répertoire : C:\Finbert\finBERT\scripts
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        31/12/2022     13:46            733 datasets.py
+-a----        31/12/2022     13:46            860 predict.py
+
+
+(finbert) PS C:\Finbert\finBERT\scripts> python predict.py --text_path test.txt --output_dir output/ --model_path models/classifier_model/finbert-sentiment
+Traceback (most recent call last):
+  File "predict.py", line 1, in <module>
+    from finbert.finbert import predict
+ModuleNotFoundError: No module named 'finbert'
+(finbert) PS C:\Finbert\finBERT\scripts> python predict.py --text_path test.txt --output_dir output/ --model_path models/classifier_model/finbert-sentiment
+Traceback (most recent call last):
+  File "predict.py", line 1, in <module>
+    from finbert import predict
+ModuleNotFoundError: No module named 'finbert'
+(finbert) PS C:\Finbert\finBERT\scripts> cd..
+(finbert) PS C:\Finbert\finBERT> python predict.py --text_path test.txt --output_dir output/ --model_path models/classifier_model/finbert-sentiment
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████| 570/570 [00:00<00:00, 194kB/s]
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████| 232k/232k [00:00<00:00, 604kB/s]
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████| 466k/466k [00:00<00:00, 986kB/s]
+404 Client Error: Not Found for url: https://huggingface.co/models/classifier_model/finbert-sentiment/resolve/main/config.json
+Traceback (most recent call last):
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\transformers\configuration_utils.py", line 406, in get_config_dict
+    use_auth_token=use_auth_token,
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\transformers\file_utils.py", line 1085, in cached_path
+    local_files_only=local_files_only,
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\transformers\file_utils.py", line 1215, in get_from_cache
+    r.raise_for_status()
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\requests\models.py", line 960, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://huggingface.co/models/classifier_model/finbert-sentiment/resolve/main/config.json
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "predict.py", line 24, in <module>
+    model = AutoModelForSequenceClassification.from_pretrained(args.model_path,num_labels=3,cache_dir=None)
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\transformers\models\auto\modeling_auto.py", line 1277, in from_pretrained
+    pretrained_model_name_or_path, return_unused_kwargs=True, **kwargs
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\transformers\models\auto\configuration_auto.py", line 349, in from_pretrained
+    config_dict, _ = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\transformers\configuration_utils.py", line 418, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for 'models/classifier_model/finbert-sentiment'. Make sure that:
+
+- 'models/classifier_model/finbert-sentiment' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or 'models/classifier_model/finbert-sentiment' is the correct path to a directory containing a config.json file
+
+
+(finbert) PS C:\Finbert\finBERT> cd .\models\
+(finbert) PS C:\Finbert\finBERT\models> cd .\sentiment\
+(finbert) PS C:\Finbert\finBERT\models\sentiment> .from_pretrained(<model directory name>)
+< : Le terme «<» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez
+l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
+Au caractère Ligne:1 : 18
++ .from_pretrained(<model directory name>)
++                  ~
+    + CategoryInfo          : ObjectNotFound: (<:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(finbert) PS C:\Finbert\finBERT\models\sentiment> python predict.py --text_path test.txt --output_dir output/ --model_path models/sentiment/finbert-sentiment
+C:\Users\mebasaran\.conda\envs\finbert\python.exe: can't open file 'predict.py': [Errno 2] No such file or directory
+(finbert) PS C:\Finbert\finBERT\models\sentiment> cd..
+(finbert) PS C:\Finbert\finBERT\models> cd..
+(finbert) PS C:\Finbert\finBERT> python predict.py --text_path test.txt --output_dir output/ --model_path models/sentiment/finbert-sentiment
+404 Client Error: Not Found for url: https://huggingface.co/models/sentiment/finbert-sentiment/resolve/main/config.json
+Traceback (most recent call last):
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\transformers\configuration_utils.py", line 406, in get_config_dict
+    use_auth_token=use_auth_token,
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\transformers\file_utils.py", line 1085, in cached_path
+    local_files_only=local_files_only,
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\transformers\file_utils.py", line 1215, in get_from_cache
+    r.raise_for_status()
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\requests\models.py", line 960, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://huggingface.co/models/sentiment/finbert-sentiment/resolve/main/config.json
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "predict.py", line 24, in <module>
+    model = AutoModelForSequenceClassification.from_pretrained(args.model_path,num_labels=3,cache_dir=None)
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\transformers\models\auto\modeling_auto.py", line 1277, in from_pretrained
+    pretrained_model_name_or_path, return_unused_kwargs=True, **kwargs
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\transformers\models\auto\configuration_auto.py", line 349, in from_pretrained
+    config_dict, _ = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\transformers\configuration_utils.py", line 418, in get_config_dict
+    raise EnvironmentError(msg)
+OSError: Can't load config for 'models/sentiment/finbert-sentiment'. Make sure that:
+
+- 'models/sentiment/finbert-sentiment' is a correct model identifier listed on 'https://huggingface.co/models'
+
+- or 'models/sentiment/finbert-sentiment' is the correct path to a directory containing a config.json file
+
+
+(finbert) PS C:\Finbert\finBERT> python predict.py --text_path test.txt --output_dir output/ --model_path models/sentiment                 Traceback (most recent call last):
+  File "predict.py", line 24, in <module>
+    model = AutoModelForSequenceClassification.from_pretrained(args.model_path,num_labels=3,cache_dir=None)
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\transformers\models\auto\modeling_auto.py", line 1277, in from_pretrained
+    pretrained_model_name_or_path, return_unused_kwargs=True, **kwargs
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\transformers\models\auto\configuration_auto.py", line 363, in from_pretrained
+    "in its name: {}".format(pretrained_model_name_or_path, ", ".join(CONFIG_MAPPING.keys()))
+ValueError: Unrecognized model in models/sentiment. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: retribert, mt5, t5, mobilebert, distilbert, albert, bert-generation, camembert, xlm-roberta, pegasus, marian, mbart, mpnet, bart, blenderbot, reformer, longformer, roberta, deberta, flaubert, fsmt, squeezebert, bert, openai-gpt, gpt2, transfo-xl, xlnet, xlm-prophetnet, prophetnet, xlm, ctrl, electra, encoder-decoder, funnel, lxmert, dpr, layoutlm, rag, tapas
+(finbert) PS C:\Finbert\finBERT> python predict.py --text_path test.txt --output_dir output/ --model_path models/sentiment
+Some weights of the model checkpoint at models/sentiment were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at models/sentiment and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Traceback (most recent call last):
+  File "predict.py", line 27, in <module>
+    predict(text,model,write_to_csv=True,path=os.path.join(args.output_dir,output))
+  File "C:\Finbert\finBERT\finbert\finbert.py", line 603, in predict
+    sentences = sent_tokenize(text)
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\nltk\tokenize\__init__.py", line 106, in sent_tokenize
+    tokenizer = load(f"tokenizers/punkt/{language}.pickle")
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\nltk\data.py", line 750, in load
+    opened_resource = _open(resource_url)
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\nltk\data.py", line 876, in _open
+    return find(path_, path + [""]).open()
+  File "C:\Users\mebasaran\.conda\envs\finbert\lib\site-packages\nltk\data.py", line 583, in find
+    raise LookupError(resource_not_found)
+LookupError:
+**********************************************************************
+  Resource punkt not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt')
+
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load tokenizers/punkt/english.pickle
+
+  Searched in:
+    - 'C:\\Users\\mebasaran/nltk_data'
+    - 'C:\\Users\\mebasaran\\.conda\\envs\\finbert\\nltk_data'
+    - 'C:\\Users\\mebasaran\\.conda\\envs\\finbert\\share\\nltk_data'
+    - 'C:\\Users\\mebasaran\\.conda\\envs\\finbert\\lib\\nltk_data'
+    - 'C:\\Users\\mebasaran\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+    - ''
+**********************************************************************
+
+(finbert) PS C:\Finbert\finBERT> nltk.download('punkt')
+nltk.download : Le terme «nltk.download» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe,
+vérifiez que le chemin d'accès est correct et réessayez.
+Au caractère Ligne:1 : 1
++ nltk.download('punkt')
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (nltk.download:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(finbert) PS C:\Finbert\finBERT> import nltk
+import : Le terme «import» n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le
+chemin d'accès est correct et réessayez.
+Au caractère Ligne:1 : 1
++ import nltk
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (import:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(finbert) PS C:\Finbert\finBERT> python nltktest.py
+C:\Users\mebasaran\.conda\envs\finbert\python.exe: can't open file 'nltktest.py': [Errno 2] No such file or directory
+(finbert) PS C:\Finbert\finBERT> python ntlktest.py
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\mebasaran\AppData\Roaming\nltk_data...
+[nltk_data]   Unzipping tokenizers\punkt.zip.
+(finbert) PS C:\Finbert\finBERT> python predict.py --text_path test.txt --output_dir output/ --model_path models/sentiment
+Some weights of the model checkpoint at models/sentiment were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at models/sentiment and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+12/31/2022 15:08:38 - INFO - root -   Using device: cpu
+12/31/2022 15:08:38 - INFO - finbert.utils -   *** Example ***
+12/31/2022 15:08:38 - INFO - finbert.utils -   guid: 0
+12/31/2022 15:08:38 - INFO - finbert.utils -   tokens: [CLS] shares in the spin - off of south african e - commerce group nas ##pers surged more than 25 % in the first minutes of their market debut in amsterdam on wednesday . [SEP]
+12/31/2022 15:08:38 - INFO - finbert.utils -   input_ids: 101 6661 1999 1996 6714 1011 2125 1997 2148 3060 1041 1011 6236 2177 17235 7347 18852 2062 2084 2423 1003 1999 1996 2034 2781 1997 2037 3006 2834 1999 7598 2006 9317 1012 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/31/2022 15:08:38 - INFO - finbert.utils -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/31/2022 15:08:38 - INFO - finbert.utils -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/31/2022 15:08:38 - INFO - finbert.utils -   label: None (id = 9090)
+12/31/2022 15:08:39 - INFO - root -   tensor([[ 0.1127, -0.3710,  0.0394],
+        [ 0.0758, -0.4117,  0.0228],
+        [ 0.0749, -0.3782, -0.0106],
+        [ 0.1422, -0.3538,  0.0306],
+        [ 0.1189, -0.3614,  0.0430]])
+12/31/2022 15:08:39 - INFO - finbert.utils -   *** Example ***
+12/31/2022 15:08:39 - INFO - finbert.utils -   guid: 0
+12/31/2022 15:08:39 - INFO - finbert.utils -   tokens: [CLS] euro ##ne ##xt had given an indicative price of 58 . 70 euros per share for pro ##sus , implying a market value of 95 . 3 billion euros ( $ 105 billion ) . [SEP]
+12/31/2022 15:08:39 - INFO - finbert.utils -   input_ids: 101 9944 2638 18413 2018 2445 2019 24668 3976 1997 5388 1012 3963 19329 2566 3745 2005 4013 13203 1010 20242 1037 3006 3643 1997 5345 1012 1017 4551 19329 1006 1002 8746 4551 1007 1012 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/31/2022 15:08:39 - INFO - finbert.utils -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/31/2022 15:08:39 - INFO - finbert.utils -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/31/2022 15:08:39 - INFO - finbert.utils -   label: None (id = 9090)
+12/31/2022 15:08:39 - INFO - root -   tensor([[ 0.0477, -0.3717,  0.0181],
+        [ 0.0598, -0.3504,  0.0525]])
+(finbert) PS C:\Finbert\finBERT> python predict.py --text_path test.txt --output_dir output/ --model_path models/sentiment
+Some weights of the model checkpoint at models/sentiment were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at models/sentiment and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+12/31/2022 15:12:14 - INFO - root -   Using device: cpu
+Token indices sequence length is longer than the specified maximum sequence length for this model (1997 > 512). Running this sequence through the model will result in indexing errors
+12/31/2022 15:12:14 - INFO - finbert.utils -   *** Example ***
+12/31/2022 15:12:14 - INFO - finbert.utils -   guid: 0
+12/31/2022 15:12:14 - INFO - finbert.utils -   tokens: [CLS] text update 2 - u . s . adds turkey to list of countries implicated watch on july 30 out of control and rising : why bit ##co ##in has nigeria ' s government in a panic as leaders around the world gr ##apple with crypt ##oc ##ur ##ren ##cies , what happened when the african country tried to ban them ? [SEP]
+12/31/2022 15:12:14 - INFO - finbert.utils -   input_ids: 101 3793 10651 1016 1011 1057 1012 1055 1012 9909 4977 2000 2862 1997 3032 20467 3422 2006 2251 2382 2041 1997 2491 1998 4803 1024 2339 2978 3597 2378 2038 7387 1005 1055 2231 1999 1037 6634 2004 4177 2105 1996 2088 24665 23804 2007 19888 10085 3126 7389 9243 1010 2054 3047 2043 1996 3060 2406 2699 2000 7221 2068 1029 102
+12/31/2022 15:12:14 - INFO - finbert.utils -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/31/2022 15:12:14 - INFO - finbert.utils -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/31/2022 15:12:14 - INFO - finbert.utils -   label: None (id = 9090)
+12/31/2022 15:12:14 - INFO - root -   tensor([[0.2409, 0.0995, 0.1216],
+        [0.2246, 0.0734, 0.1190],
+        [0.2501, 0.0933, 0.1238],
+        [0.1861, 0.0514, 0.1374],
+        [0.2637, 0.1449, 0.1537]])
+12/31/2022 15:12:14 - INFO - finbert.utils -   *** Example ***
+12/31/2022 15:12:14 - INFO - finbert.utils -   guid: 0
+12/31/2022 15:12:14 - INFO - finbert.utils -   tokens: [CLS] then he pulled punches turkey mandates banks for two - tran ##che euro ##bon ##d turkey breaks with convention again turkish central bank surprises with rate cut sought by er ##dog ##an emerging markets - stocks cheer ever ##gra ##nde jump buzz - slow fx markets set to slow more and support risk taking buzz - will turkey cut rates today ? [SEP]
+12/31/2022 15:12:14 - INFO - finbert.utils -   input_ids: 101 2059 2002 2766 17957 4977 25979 5085 2005 2048 1011 25283 5403 9944 11735 2094 4977 7807 2007 4680 2153 5037 2430 2924 20096 2007 3446 3013 4912 2011 9413 16168 2319 8361 6089 1011 15768 15138 2412 17643 13629 5376 12610 1011 4030 23292 6089 2275 2000 4030 2062 1998 2490 3891 2635 12610 1011 2097 4977 3013 6165 2651 1029 102
+12/31/2022 15:12:14 - INFO - finbert.utils -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/31/2022 15:12:14 - INFO - finbert.utils -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/31/2022 15:12:14 - INFO - finbert.utils -   label: None (id = 9090)
+12/31/2022 15:12:14 - INFO - root -   tensor([[ 0.2310,  0.0866,  0.1266],
+        [ 0.3197,  0.1479,  0.1403],
+        [ 0.0683, -0.0170,  0.0168],
+        [ 0.1949,  0.0351,  0.0945],
+        [ 0.0683, -0.0170,  0.0168]])
+12/31/2022 15:12:14 - INFO - finbert.utils -   *** Example ***
+12/31/2022 15:12:14 - INFO - finbert.utils -   guid: 0
+12/31/2022 15:12:14 - INFO - finbert.utils -   tokens: [CLS] [ breaking defense ] world insights : a brief history of america ' s betrayal turkey registers 30 , 43 ##8 new co ##vid - 19 cases , highest since april 30 buzz - replay - powell , intervention , eye of the storm , abyss , dip buyer the us navy just made its first ever port call in lebanon . [SEP]
+12/31/2022 15:12:14 - INFO - finbert.utils -   input_ids: 101 1031 4911 3639 1033 2088 20062 1024 1037 4766 2381 1997 2637 1005 1055 14583 4977 18687 2382 1010 4724 2620 2047 2522 17258 1011 2539 3572 1010 3284 2144 2258 2382 12610 1011 15712 1011 8997 1010 8830 1010 3239 1997 1996 4040 1010 22159 1010 16510 17634 1996 2149 3212 2074 2081 2049 2034 2412 3417 2655 1999 8341 1012 102
+12/31/2022 15:12:14 - INFO - finbert.utils -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/31/2022 15:12:14 - INFO - finbert.utils -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/31/2022 15:12:14 - INFO - finbert.utils -   label: None (id = 9090)
+12/31/2022 15:12:15 - INFO - root -   tensor([[ 0.2226,  0.0702,  0.1079],
+        [ 0.0683, -0.0170,  0.0168],
+        [ 0.2049,  0.0494,  0.0953],
+        [ 0.1651,  0.0460,  0.0627],
+        [ 0.2528,  0.0629,  0.1361]])
+12/31/2022 15:12:15 - INFO - finbert.utils -   *** Example ***
+12/31/2022 15:12:15 - INFO - finbert.utils -   guid: 0
+12/31/2022 15:12:15 - INFO - finbert.utils -   tokens: [CLS] four questions for turkey ' s central bank global markets - s & p 500 opposition angry update 1 - comment : cb ##rt - not about the level but the vol , risks contained buzz - replay - viking cross , abrupt change , in need of a cb ##rt reversal live markets - can wall street stage a comeback ? [SEP]
+12/31/2022 15:12:15 - INFO - finbert.utils -   input_ids: 101 2176 3980 2005 4977 1005 1055 2430 2924 3795 6089 1011 1055 1004 1052 3156 4559 4854 10651 1015 1011 7615 1024 17324 5339 1011 2025 2055 1996 2504 2021 1996 5285 1010 10831 4838 12610 1011 15712 1011 12886 2892 1010 18772 2689 1010 1999 2342 1997 1037 17324 5339 23163 2444 6089 1011 2064 2813 2395 2754 1037 12845 1029 102
+12/31/2022 15:12:15 - INFO - finbert.utils -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/31/2022 15:12:15 - INFO - finbert.utils -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/31/2022 15:12:15 - INFO - finbert.utils -   label: None (id = 9090)
+12/31/2022 15:12:15 - INFO - root -   tensor([[0.2338, 0.0658, 0.1190],
+        [0.1726, 0.0379, 0.0712],
+        [0.2256, 0.0489, 0.1083],
+        [0.2442, 0.0784, 0.1301],
+        [0.1535, 0.0037, 0.0746]])
+12/31/2022 15:12:15 - INFO - finbert.utils -   *** Example ***
+12/31/2022 15:12:15 - INFO - finbert.utils -   guid: 0
+12/31/2022 15:12:15 - INFO - finbert.utils -   tokens: [CLS] turkish restaurants to raise prices to cover wage jump comment replay - pep ##p rein - turkey ' s er ##dog ##an says he ' s cut inflation to 4 % before , can do again er ##dog ##an says turkey ' s economic problems are not due to lowering of rates will the plunge in turkish currency make holidays cheaper ? [SEP]
+12/31/2022 15:12:15 - INFO - finbert.utils -   input_ids: 101 5037 7884 2000 5333 7597 2000 3104 11897 5376 7615 15712 1011 27233 2361 27788 1011 4977 1005 1055 9413 16168 2319 2758 2002 1005 1055 3013 14200 2000 1018 1003 2077 1010 2064 2079 2153 9413 16168 2319 2758 4977 1005 1055 3171 3471 2024 2025 2349 2000 13845 1997 6165 2097 1996 25912 1999 5037 9598 2191 11938 16269 1029 102
+12/31/2022 15:12:15 - INFO - finbert.utils -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/31/2022 15:12:15 - INFO - finbert.utils -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/31/2022 15:12:15 - INFO - finbert.utils -   label: None (id = 9090)
+12/31/2022 15:12:16 - INFO - root -   tensor([[0.1797, 0.0444, 0.0811],
+        [0.1699, 0.0428, 0.0749],
+        [0.2310, 0.0558, 0.1269],
+        [0.2717, 0.0898, 0.1419],
+        [0.1387, 0.0175, 0.0695]])
+12/31/2022 15:12:16 - INFO - finbert.utils -   *** Example ***
+12/31/2022 15:12:16 - INFO - finbert.utils -   guid: 0
+12/31/2022 15:12:16 - INFO - finbert.utils -   tokens: [CLS] buzz - turkish li ##ra likely to slide on oil emerging markets - stocks pause interest in li ##ra , media say exclusive - turkish bank employees compelled to boost li ##ra - defence scheme - sources update 1 - turkey ' s er ##dog ##an says russian invasion of ukraine not realistic - nt ##v analysis - best supporting actor ? [SEP]
+12/31/2022 15:12:16 - INFO - finbert.utils -   input_ids: 101 12610 1011 5037 5622 2527 3497 2000 7358 2006 3514 8361 6089 1011 15768 8724 3037 1999 5622 2527 1010 2865 2360 7262 1011 5037 2924 5126 15055 2000 12992 5622 2527 1011 4721 5679 1011 4216 10651 1015 1011 4977 1005 1055 9413 16168 2319 2758 2845 5274 1997 5924 2025 12689 1011 23961 2615 4106 1011 2190 4637 3364 1029 102
+12/31/2022 15:12:16 - INFO - finbert.utils -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/31/2022 15:12:16 - INFO - finbert.utils -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/31/2022 15:12:16 - INFO - finbert.utils -   label: None (id = 9090)
+12/31/2022 15:12:16 - INFO - root -   tensor([[0.2597, 0.1097, 0.1248],
+        [0.1588, 0.0531, 0.0447],
+        [0.1905, 0.0426, 0.0579],
+        [0.1017, 0.0091, 0.0410],
+        [0.2067, 0.1120, 0.0978]])
+12/31/2022 15:12:16 - INFO - finbert.utils -   *** Example ***
+12/31/2022 15:12:16 - INFO - finbert.utils -   guid: 0
+12/31/2022 15:12:16 - INFO - finbert.utils -   tokens: [CLS] k ##rem ##lin sees room for dialogue after u . s . security response emerging . 82 b ##ln turks ' fore ##x holdings dropped $ 2 . 13 b ##ln last week buzz - turkey has li ##ra under control but has lost control of inflation china : will the strong decline in real m1 weigh on em financial ##s ? [SEP]
+12/31/2022 15:12:16 - INFO - finbert.utils -   input_ids: 101 1047 28578 4115 5927 2282 2005 7982 2044 1057 1012 1055 1012 3036 3433 8361 1012 6445 1038 19666 12896 1005 18921 2595 9583 3333 1002 1016 1012 2410 1038 19666 2197 2733 12610 1011 4977 2038 5622 2527 2104 2491 2021 2038 2439 2491 1997 14200 2859 1024 2097 1996 2844 6689 1999 2613 23290 17042 2006 7861 3361 2015 1029 102
+12/31/2022 15:12:16 - INFO - finbert.utils -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/31/2022 15:12:16 - INFO - finbert.utils -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/31/2022 15:12:16 - INFO - finbert.utils -   label: None (id = 9090)
+12/31/2022 15:12:16 - INFO - root -   tensor([[0.1783, 0.0543, 0.0741],
+        [0.2335, 0.0929, 0.1278],
+        [0.2000, 0.0827, 0.1139],
+        [0.1887, 0.0729, 0.0674],
+        [0.2800, 0.1516, 0.1207]])
+12/31/2022 15:12:16 - INFO - finbert.utils -   *** Example ***
+12/31/2022 15:12:16 - INFO - finbert.utils -   guid: 0
+12/31/2022 15:12:16 - INFO - finbert.utils -   tokens: [CLS] white house : bid ##en : canada and us to fill wheat supply shortage ukrainian watch on april 5 crypt ##o mania , financial con ##tag ##ion , and the ' gold ##ilo ##cks zone ' be ##ware falling for the ' first - version trap ' - but also take care to avoid the dangers of un ##bri ##dled speculation . [SEP]
+12/31/2022 15:12:16 - INFO - finbert.utils -   input_ids: 101 2317 2160 1024 7226 2368 1024 2710 1998 2149 2000 6039 10500 4425 15843 5969 3422 2006 2258 1019 19888 2080 29310 1010 3361 9530 15900 3258 1010 1998 1996 1005 2751 22360 10603 4224 1005 2022 8059 4634 2005 1996 1005 2034 1011 2544 8132 1005 1011 2021 2036 2202 2729 2000 4468 1996 16796 1997 4895 23736 20043 12143 1012 102
+12/31/2022 15:12:16 - INFO - finbert.utils -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/31/2022 15:12:16 - INFO - finbert.utils -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/31/2022 15:12:16 - INFO - finbert.utils -   label: None (id = 9090)
+12/31/2022 15:12:17 - INFO - root -   tensor([[0.1740, 0.0867, 0.0811],
+        [0.1953, 0.0759, 0.1139],
+        [0.2729, 0.0954, 0.1325],
+        [0.2510, 0.1091, 0.1223],
+        [0.2255, 0.0527, 0.1106]])
+(finbert) PS C:\Finbert\finBERT>
